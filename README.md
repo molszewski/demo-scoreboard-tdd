@@ -1,6 +1,6 @@
 # Exercise
 
-You are working on a sports data company, and we would like you to develop a new Live Football World Cup Score Board that shows matches and scores.  
+You are working in a sports data company, and we would like you to develop a new Live Football World Cup Score Board that shows matches and scores.  
 
 The board supports the following operations: 
 
@@ -12,17 +12,17 @@ When a game starts, it should capture (being initial score 0 – 0):
 
 ### Finish game
 
-It will remove a match from the scoreboard. 
+Removes a game with specified home and away teams from the scoreboard. 
 
 ### Update score
 
-Receiving the home team score and away team score updates a game score. 
+Updates the home and away teams scores for the ongoing game.  
 
 ### Get a summary of games by total score as plain text
 
-Those games with the same total score will be returned ordered by the most recently added to our system.  
+The games with the same total score will be returned ordered by the most recently added to our system.  
 
-As an example, being the current data in the system: 
+As an example, with the following data in the system: 
 
     Mexico - Canada: 0 - 5  
     Spain - Brazil: 10 – 2 
