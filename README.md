@@ -18,7 +18,7 @@ It will remove a match from the scoreboard.
 
 Receiving the home team score and away team score updates a game score. 
 
-### Get a summary of games by total score
+### Get a summary of games by total score as plain text
 
 Those games with the same total score will be returned ordered by the most recently added to our system.  
 
@@ -30,7 +30,7 @@ As an example, being the current data in the system:
     Uruguay - Italy: 6 – 6 
     Argentina - Australia: 3 - 1  
 
-The summary would provide with the following information:  
+The summary would provide with the following information as plain text:  
 
     Uruguay 6 - Italy 6 
     Spain 10 - Brazil 2 
